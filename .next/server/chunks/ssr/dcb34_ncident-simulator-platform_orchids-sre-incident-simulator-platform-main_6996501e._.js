@@ -143,7 +143,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$sre$2d$incident$2d$simulator
 ;
 ;
 const metadata = {
-    title: "SRE Practice",
+    title: "SRE Incident Response Command Center",
     description: "Master SRE concepts through interactive simulation"
 };
 function RootLayout({ children }) {

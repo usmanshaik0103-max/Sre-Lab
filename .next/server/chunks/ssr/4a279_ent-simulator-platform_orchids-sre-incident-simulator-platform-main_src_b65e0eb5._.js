@@ -1191,14 +1191,6 @@ function CardFooter({ className, ...props }) {
 }
 ;
 }}),
-"[externals]/next/dist/server/app-render/work-async-storage.external.js [external] (next/dist/server/app-render/work-async-storage.external.js, cjs)": (function(__turbopack_context__) {
-
-var { g: global, __dirname, m: module, e: exports } = __turbopack_context__;
-{
-const mod = __turbopack_context__.x("next/dist/server/app-render/work-async-storage.external.js", () => require("next/dist/server/app-render/work-async-storage.external.js"));
-
-module.exports = mod;
-}}),
 "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/components/dashboard/metric-card.tsx [app-ssr] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
@@ -7791,6 +7783,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$sre$2d$incident$2d$simulator
 var __TURBOPACK__imported__module__$5b$project$5d2f$sre$2d$incident$2d$simulator$2d$platform$2f$orchids$2d$sre$2d$incident$2d$simulator$2d$platform$2d$main$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$shield$2d$alert$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ShieldAlert$3e$__ = __turbopack_context__.i("[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/node_modules/lucide-react/dist/esm/icons/shield-alert.js [app-ssr] (ecmascript) <export default as ShieldAlert>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$sre$2d$incident$2d$simulator$2d$platform$2f$orchids$2d$sre$2d$incident$2d$simulator$2d$platform$2d$main$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$terminal$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Terminal$3e$__ = __turbopack_context__.i("[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/node_modules/lucide-react/dist/esm/icons/terminal.js [app-ssr] (ecmascript) <export default as Terminal>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$sre$2d$incident$2d$simulator$2d$platform$2f$orchids$2d$sre$2d$incident$2d$simulator$2d$platform$2d$main$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$circle$2d$question$2d$mark$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__HelpCircle$3e$__ = __turbopack_context__.i("[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/node_modules/lucide-react/dist/esm/icons/circle-question-mark.js [app-ssr] (ecmascript) <export default as HelpCircle>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$sre$2d$incident$2d$simulator$2d$platform$2f$orchids$2d$sre$2d$incident$2d$simulator$2d$platform$2d$main$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$cpu$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Cpu$3e$__ = __turbopack_context__.i("[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/node_modules/lucide-react/dist/esm/icons/cpu.js [app-ssr] (ecmascript) <export default as Cpu>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$sre$2d$incident$2d$simulator$2d$platform$2f$orchids$2d$sre$2d$incident$2d$simulator$2d$platform$2d$main$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$graduation$2d$cap$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__GraduationCap$3e$__ = __turbopack_context__.i("[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/node_modules/lucide-react/dist/esm/icons/graduation-cap.js [app-ssr] (ecmascript) <export default as GraduationCap>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$sre$2d$incident$2d$simulator$2d$platform$2f$orchids$2d$sre$2d$incident$2d$simulator$2d$platform$2d$main$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$menu$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Menu$3e$__ = __turbopack_context__.i("[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/node_modules/lucide-react/dist/esm/icons/menu.js [app-ssr] (ecmascript) <export default as Menu>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$sre$2d$incident$2d$simulator$2d$platform$2f$orchids$2d$sre$2d$incident$2d$simulator$2d$platform$2d$main$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$trophy$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Trophy$3e$__ = __turbopack_context__.i("[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/node_modules/lucide-react/dist/esm/icons/trophy.js [app-ssr] (ecmascript) <export default as Trophy>");
@@ -7862,15 +7855,31 @@ function Home() {
                     className: "p-6 border-b border-zinc-200 dark:border-zinc-800 flex items-center justify-between shrink-0",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sre$2d$incident$2d$simulator$2d$platform$2f$orchids$2d$sre$2d$incident$2d$simulator$2d$platform$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "flex items-center gap-3",
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sre$2d$incident$2d$simulator$2d$platform$2f$orchids$2d$sre$2d$incident$2d$simulator$2d$platform$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                            className: "font-bold tracking-tighter text-lg",
-                            children: "SRE Incident Response Command Center"
-                        }, void 0, false, {
-                            fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-                            lineNumber: 79,
-                            columnNumber: 11
-                        }, this)
-                    }, void 0, false, {
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sre$2d$incident$2d$simulator$2d$platform$2f$orchids$2d$sre$2d$incident$2d$simulator$2d$platform$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "bg-emerald-500 p-1.5 rounded-md",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sre$2d$incident$2d$simulator$2d$platform$2f$orchids$2d$sre$2d$incident$2d$simulator$2d$platform$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$sre$2d$incident$2d$simulator$2d$platform$2f$orchids$2d$sre$2d$incident$2d$simulator$2d$platform$2d$main$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$cpu$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Cpu$3e$__["Cpu"], {
+                                    className: "w-5 h-5 text-black"
+                                }, void 0, false, {
+                                    fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
+                                    lineNumber: 79,
+                                    columnNumber: 13
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
+                                lineNumber: 78,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sre$2d$incident$2d$simulator$2d$platform$2f$orchids$2d$sre$2d$incident$2d$simulator$2d$platform$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                className: "font-bold tracking-tighter text-lg",
+                                children: "SRE Incident Response Command Center"
+                            }, void 0, false, {
+                                fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
+                                lineNumber: 81,
+                                columnNumber: 11
+                            }, this)
+                        ]
+                    }, void 0, true, {
                         fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
                         lineNumber: 77,
                         columnNumber: 9
@@ -7896,7 +7905,7 @@ function Home() {
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-                                        lineNumber: 86,
+                                        lineNumber: 88,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sre$2d$incident$2d$simulator$2d$platform$2f$orchids$2d$sre$2d$incident$2d$simulator$2d$platform$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -7907,13 +7916,13 @@ function Home() {
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-                                        lineNumber: 87,
+                                        lineNumber: 89,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-                                lineNumber: 85,
+                                lineNumber: 87,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sre$2d$incident$2d$simulator$2d$platform$2f$orchids$2d$sre$2d$incident$2d$simulator$2d$platform$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -7921,7 +7930,7 @@ function Home() {
                                 children: MATURITY_TITLES[maturityLevel]
                             }, void 0, false, {
                                 fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-                                lineNumber: 89,
+                                lineNumber: 91,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sre$2d$incident$2d$simulator$2d$platform$2f$orchids$2d$sre$2d$incident$2d$simulator$2d$platform$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -7933,23 +7942,23 @@ function Home() {
                                     }
                                 }, void 0, false, {
                                     fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-                                    lineNumber: 91,
+                                    lineNumber: 93,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-                                lineNumber: 90,
+                                lineNumber: 92,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-                        lineNumber: 84,
+                        lineNumber: 86,
                         columnNumber: 9
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-                    lineNumber: 83,
+                    lineNumber: 85,
                     columnNumber: 7
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sre$2d$incident$2d$simulator$2d$platform$2f$orchids$2d$sre$2d$incident$2d$simulator$2d$platform$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
@@ -7960,7 +7969,7 @@ function Home() {
                                 className: "w-4 h-4"
                             }, void 0, false, {
                                 fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-                                lineNumber: 101,
+                                lineNumber: 103,
                                 columnNumber: 17
                             }, void 0),
                             label: "Live Dashboard",
@@ -7971,7 +7980,7 @@ function Home() {
                             }
                         }, void 0, false, {
                             fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-                            lineNumber: 100,
+                            lineNumber: 102,
                             columnNumber: 9
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sre$2d$incident$2d$simulator$2d$platform$2f$orchids$2d$sre$2d$incident$2d$simulator$2d$platform$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(NavItem, {
@@ -7979,7 +7988,7 @@ function Home() {
                                 className: "w-4 h-4"
                             }, void 0, false, {
                                 fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-                                lineNumber: 107,
+                                lineNumber: 109,
                                 columnNumber: 17
                             }, void 0),
                             label: "Incident Response",
@@ -7991,7 +8000,7 @@ function Home() {
                             badge: activeIncidents.length > 0 ? activeIncidents.length : undefined
                         }, void 0, false, {
                             fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-                            lineNumber: 106,
+                            lineNumber: 108,
                             columnNumber: 9
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sre$2d$incident$2d$simulator$2d$platform$2f$orchids$2d$sre$2d$incident$2d$simulator$2d$platform$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(NavItem, {
@@ -7999,7 +8008,7 @@ function Home() {
                                 className: "w-4 h-4"
                             }, void 0, false, {
                                 fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-                                lineNumber: 114,
+                                lineNumber: 116,
                                 columnNumber: 17
                             }, void 0),
                             label: "System Logs",
@@ -8010,7 +8019,7 @@ function Home() {
                             }
                         }, void 0, false, {
                             fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-                            lineNumber: 113,
+                            lineNumber: 115,
                             columnNumber: 9
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sre$2d$incident$2d$simulator$2d$platform$2f$orchids$2d$sre$2d$incident$2d$simulator$2d$platform$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(NavItem, {
@@ -8018,7 +8027,7 @@ function Home() {
                                 className: "w-4 h-4"
                             }, void 0, false, {
                                 fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-                                lineNumber: 120,
+                                lineNumber: 122,
                                 columnNumber: 17
                             }, void 0),
                             label: "SRE Training Hub",
@@ -8029,7 +8038,7 @@ function Home() {
                             }
                         }, void 0, false, {
                             fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-                            lineNumber: 119,
+                            lineNumber: 121,
                             columnNumber: 9
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sre$2d$incident$2d$simulator$2d$platform$2f$orchids$2d$sre$2d$incident$2d$simulator$2d$platform$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -8039,12 +8048,12 @@ function Home() {
                                 children: "Training Mode"
                             }, void 0, false, {
                                 fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-                                lineNumber: 127,
+                                lineNumber: 129,
                                 columnNumber: 11
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-                            lineNumber: 126,
+                            lineNumber: 128,
                             columnNumber: 9
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sre$2d$incident$2d$simulator$2d$platform$2f$orchids$2d$sre$2d$incident$2d$simulator$2d$platform$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -8055,7 +8064,7 @@ function Home() {
                                     className: "w-4 h-4"
                                 }, void 0, false, {
                                     fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-                                    lineNumber: 136,
+                                    lineNumber: 138,
                                     columnNumber: 11
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sre$2d$incident$2d$simulator$2d$platform$2f$orchids$2d$sre$2d$incident$2d$simulator$2d$platform$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -8063,19 +8072,19 @@ function Home() {
                                     children: teachingMode ? 'Learning Active' : 'Basic Mode'
                                 }, void 0, false, {
                                     fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-                                    lineNumber: 137,
+                                    lineNumber: 139,
                                     columnNumber: 11
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-                            lineNumber: 129,
+                            lineNumber: 131,
                             columnNumber: 9
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-                    lineNumber: 99,
+                    lineNumber: 101,
                     columnNumber: 7
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sre$2d$incident$2d$simulator$2d$platform$2f$orchids$2d$sre$2d$incident$2d$simulator$2d$platform$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -8091,7 +8100,7 @@ function Home() {
                                         children: "SLA Health"
                                     }, void 0, false, {
                                         fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-                                        lineNumber: 144,
+                                        lineNumber: 146,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sre$2d$incident$2d$simulator$2d$platform$2f$orchids$2d$sre$2d$incident$2d$simulator$2d$platform$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -8102,13 +8111,13 @@ function Home() {
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-                                        lineNumber: 145,
+                                        lineNumber: 147,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-                                lineNumber: 143,
+                                lineNumber: 145,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sre$2d$incident$2d$simulator$2d$platform$2f$orchids$2d$sre$2d$incident$2d$simulator$2d$platform$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -8120,23 +8129,23 @@ function Home() {
                                     }
                                 }, void 0, false, {
                                     fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-                                    lineNumber: 148,
+                                    lineNumber: 150,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-                                lineNumber: 147,
+                                lineNumber: 149,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-                        lineNumber: 142,
+                        lineNumber: 144,
                         columnNumber: 9
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-                    lineNumber: 141,
+                    lineNumber: 143,
                     columnNumber: 7
                 }, this)
             ]
@@ -8150,19 +8159,19 @@ function Home() {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sre$2d$incident$2d$simulator$2d$platform$2f$orchids$2d$sre$2d$incident$2d$simulator$2d$platform$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$sre$2d$incident$2d$simulator$2d$platform$2f$orchids$2d$sre$2d$incident$2d$simulator$2d$platform$2d$main$2f$src$2f$components$2f$sre$2d$simulator$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SRESimulator"], {}, void 0, false, {
                 fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-                lineNumber: 160,
+                lineNumber: 162,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sre$2d$incident$2d$simulator$2d$platform$2f$orchids$2d$sre$2d$incident$2d$simulator$2d$platform$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("aside", {
                 className: "hidden lg:flex w-64 border-r border-zinc-200 dark:border-zinc-800 flex-col bg-zinc-50 dark:bg-zinc-950 shrink-0",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sre$2d$incident$2d$simulator$2d$platform$2f$orchids$2d$sre$2d$incident$2d$simulator$2d$platform$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(SidebarContent, {}, void 0, false, {
                     fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-                    lineNumber: 164,
+                    lineNumber: 166,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-                lineNumber: 163,
+                lineNumber: 165,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sre$2d$incident$2d$simulator$2d$platform$2f$orchids$2d$sre$2d$incident$2d$simulator$2d$platform$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$sre$2d$incident$2d$simulator$2d$platform$2f$orchids$2d$sre$2d$incident$2d$simulator$2d$platform$2d$main$2f$src$2f$components$2f$ui$2f$sheet$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Sheet"], {
@@ -8179,36 +8188,36 @@ function Home() {
                                     children: "Navigation Menu"
                                 }, void 0, false, {
                                     fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-                                    lineNumber: 171,
+                                    lineNumber: 173,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sre$2d$incident$2d$simulator$2d$platform$2f$orchids$2d$sre$2d$incident$2d$simulator$2d$platform$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$sre$2d$incident$2d$simulator$2d$platform$2f$orchids$2d$sre$2d$incident$2d$simulator$2d$platform$2d$main$2f$src$2f$components$2f$ui$2f$sheet$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SheetDescription"], {
                                     children: "Main navigation for the SRE Incident Response Command Center platform"
                                 }, void 0, false, {
                                     fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-                                    lineNumber: 172,
+                                    lineNumber: 174,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-                            lineNumber: 170,
+                            lineNumber: 172,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sre$2d$incident$2d$simulator$2d$platform$2f$orchids$2d$sre$2d$incident$2d$simulator$2d$platform$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(SidebarContent, {}, void 0, false, {
                             fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-                            lineNumber: 174,
+                            lineNumber: 176,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-                    lineNumber: 169,
+                    lineNumber: 171,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-                lineNumber: 168,
+                lineNumber: 170,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sre$2d$incident$2d$simulator$2d$platform$2f$orchids$2d$sre$2d$incident$2d$simulator$2d$platform$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$sre$2d$incident$2d$simulator$2d$platform$2f$orchids$2d$sre$2d$incident$2d$simulator$2d$platform$2d$main$2f$src$2f$components$2f$ui$2f$sheet$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Sheet"], {
@@ -8225,43 +8234,43 @@ function Home() {
                                     children: "Learning Center"
                                 }, void 0, false, {
                                     fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-                                    lineNumber: 182,
+                                    lineNumber: 184,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sre$2d$incident$2d$simulator$2d$platform$2f$orchids$2d$sre$2d$incident$2d$simulator$2d$platform$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$sre$2d$incident$2d$simulator$2d$platform$2f$orchids$2d$sre$2d$incident$2d$simulator$2d$platform$2d$main$2f$src$2f$components$2f$ui$2f$sheet$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SheetDescription"], {
                                     children: "Educational resources and SRE concepts"
                                 }, void 0, false, {
                                     fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-                                    lineNumber: 183,
+                                    lineNumber: 185,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-                            lineNumber: 181,
+                            lineNumber: 183,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sre$2d$incident$2d$simulator$2d$platform$2f$orchids$2d$sre$2d$incident$2d$simulator$2d$platform$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "h-full overflow-y-auto",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sre$2d$incident$2d$simulator$2d$platform$2f$orchids$2d$sre$2d$incident$2d$simulator$2d$platform$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$sre$2d$incident$2d$simulator$2d$platform$2f$orchids$2d$sre$2d$incident$2d$simulator$2d$platform$2d$main$2f$src$2f$components$2f$learning$2d$panel$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["LearningPanel"], {}, void 0, false, {
                                 fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-                                lineNumber: 186,
+                                lineNumber: 188,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-                            lineNumber: 185,
+                            lineNumber: 187,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-                    lineNumber: 180,
+                    lineNumber: 182,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-                lineNumber: 179,
+                lineNumber: 181,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sre$2d$incident$2d$simulator$2d$platform$2f$orchids$2d$sre$2d$incident$2d$simulator$2d$platform$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
@@ -8297,12 +8306,12 @@ function Home() {
                                                     className: "w-6 h-6"
                                                 }, void 0, false, {
                                                     fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-                                                    lineNumber: 204,
+                                                    lineNumber: 206,
                                                     columnNumber: 23
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-                                                lineNumber: 203,
+                                                lineNumber: 205,
                                                 columnNumber: 21
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sre$2d$incident$2d$simulator$2d$platform$2f$orchids$2d$sre$2d$incident$2d$simulator$2d$platform$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -8312,7 +8321,7 @@ function Home() {
                                                         children: "New Maturity Level"
                                                     }, void 0, false, {
                                                         fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-                                                        lineNumber: 207,
+                                                        lineNumber: 209,
                                                         columnNumber: 23
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sre$2d$incident$2d$simulator$2d$platform$2f$orchids$2d$sre$2d$incident$2d$simulator$2d$platform$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -8324,19 +8333,19 @@ function Home() {
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-                                                        lineNumber: 208,
+                                                        lineNumber: 210,
                                                         columnNumber: 23
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-                                                lineNumber: 206,
+                                                lineNumber: 208,
                                                 columnNumber: 21
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-                                        lineNumber: 202,
+                                        lineNumber: 204,
                                         columnNumber: 19
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sre$2d$incident$2d$simulator$2d$platform$2f$orchids$2d$sre$2d$incident$2d$simulator$2d$platform$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$sre$2d$incident$2d$simulator$2d$platform$2f$orchids$2d$sre$2d$incident$2d$simulator$2d$platform$2d$main$2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
@@ -8347,23 +8356,23 @@ function Home() {
                                         children: "Dismiss"
                                     }, void 0, false, {
                                         fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-                                        lineNumber: 211,
+                                        lineNumber: 213,
                                         columnNumber: 19
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-                                lineNumber: 201,
+                                lineNumber: 203,
                                 columnNumber: 17
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-                            lineNumber: 195,
+                            lineNumber: 197,
                             columnNumber: 15
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-                        lineNumber: 193,
+                        lineNumber: 195,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sre$2d$incident$2d$simulator$2d$platform$2f$orchids$2d$sre$2d$incident$2d$simulator$2d$platform$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("header", {
@@ -8381,12 +8390,12 @@ function Home() {
                                             className: "w-5 h-5"
                                         }, void 0, false, {
                                             fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-                                            lineNumber: 232,
+                                            lineNumber: 234,
                                             columnNumber: 15
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-                                        lineNumber: 226,
+                                        lineNumber: 228,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sre$2d$incident$2d$simulator$2d$platform$2f$orchids$2d$sre$2d$incident$2d$simulator$2d$platform$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -8394,13 +8403,13 @@ function Home() {
                                         children: activeTab === 'dashboard' ? 'Telemetry' : activeTab === 'incidents' ? 'Incident Response' : activeTab === 'training' ? 'Training Hub' : 'Logs'
                                     }, void 0, false, {
                                         fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-                                        lineNumber: 234,
+                                        lineNumber: 236,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-                                lineNumber: 225,
+                                lineNumber: 227,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sre$2d$incident$2d$simulator$2d$platform$2f$orchids$2d$sre$2d$incident$2d$simulator$2d$platform$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -8416,7 +8425,7 @@ function Home() {
                                                 className: "w-3.5 h-3.5"
                                             }, void 0, false, {
                                                 fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-                                                lineNumber: 246,
+                                                lineNumber: 248,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sre$2d$incident$2d$simulator$2d$platform$2f$orchids$2d$sre$2d$incident$2d$simulator$2d$platform$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -8424,18 +8433,18 @@ function Home() {
                                                 children: "Learning"
                                             }, void 0, false, {
                                                 fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-                                                lineNumber: 247,
+                                                lineNumber: 249,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-                                        lineNumber: 240,
+                                        lineNumber: 242,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sre$2d$incident$2d$simulator$2d$platform$2f$orchids$2d$sre$2d$incident$2d$simulator$2d$platform$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$sre$2d$incident$2d$simulator$2d$platform$2f$orchids$2d$sre$2d$incident$2d$simulator$2d$platform$2d$main$2f$src$2f$components$2f$theme$2d$toggle$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["ThemeToggle"], {}, void 0, false, {
                                         fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-                                        lineNumber: 250,
+                                        lineNumber: 252,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sre$2d$incident$2d$simulator$2d$platform$2f$orchids$2d$sre$2d$incident$2d$simulator$2d$platform$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -8445,24 +8454,24 @@ function Home() {
                                             children: "Lab Status: Online"
                                         }, void 0, false, {
                                             fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-                                            lineNumber: 252,
+                                            lineNumber: 254,
                                             columnNumber: 15
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-                                        lineNumber: 251,
+                                        lineNumber: 253,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-                                lineNumber: 238,
+                                lineNumber: 240,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-                        lineNumber: 224,
+                        lineNumber: 226,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sre$2d$incident$2d$simulator$2d$platform$2f$orchids$2d$sre$2d$incident$2d$simulator$2d$platform$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -8477,12 +8486,12 @@ function Home() {
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sre$2d$incident$2d$simulator$2d$platform$2f$orchids$2d$sre$2d$incident$2d$simulator$2d$platform$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$sre$2d$incident$2d$simulator$2d$platform$2f$orchids$2d$sre$2d$incident$2d$simulator$2d$platform$2d$main$2f$src$2f$components$2f$dashboard$2f$real$2d$time$2d$dashboard$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["RealTimeDashboard"], {}, void 0, false, {
                                                     fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-                                                    lineNumber: 262,
+                                                    lineNumber: 264,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sre$2d$incident$2d$simulator$2d$platform$2f$orchids$2d$sre$2d$incident$2d$simulator$2d$platform$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$sre$2d$incident$2d$simulator$2d$platform$2f$orchids$2d$sre$2d$incident$2d$simulator$2d$platform$2d$main$2f$src$2f$components$2f$incident$2d$control$2f$control$2d$panel$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["IncidentControlPanel"], {}, void 0, false, {
                                                     fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-                                                    lineNumber: 263,
+                                                    lineNumber: 265,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sre$2d$incident$2d$simulator$2d$platform$2f$orchids$2d$sre$2d$incident$2d$simulator$2d$platform$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -8492,12 +8501,12 @@ function Home() {
                                                             className: "lg:col-span-8 min-h-[300px] lg:h-[400px]",
                                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sre$2d$incident$2d$simulator$2d$platform$2f$orchids$2d$sre$2d$incident$2d$simulator$2d$platform$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$sre$2d$incident$2d$simulator$2d$platform$2f$orchids$2d$sre$2d$incident$2d$simulator$2d$platform$2d$main$2f$src$2f$components$2f$terminal$2f$log$2d$terminal$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["LogTerminal"], {}, void 0, false, {
                                                                 fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-                                                                lineNumber: 266,
+                                                                lineNumber: 268,
                                                                 columnNumber: 23
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-                                                            lineNumber: 265,
+                                                            lineNumber: 267,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sre$2d$incident$2d$simulator$2d$platform$2f$orchids$2d$sre$2d$incident$2d$simulator$2d$platform$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -8509,18 +8518,18 @@ function Home() {
                                                                 }
                                                             }, void 0, false, {
                                                                 fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-                                                                lineNumber: 269,
+                                                                lineNumber: 271,
                                                                 columnNumber: 23
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-                                                            lineNumber: 268,
+                                                            lineNumber: 270,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-                                                    lineNumber: 264,
+                                                    lineNumber: 266,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
@@ -8534,12 +8543,12 @@ function Home() {
                                                         onSelect: setSelectedIncidentId
                                                     }, void 0, false, {
                                                         fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-                                                        lineNumber: 281,
+                                                        lineNumber: 283,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-                                                    lineNumber: 280,
+                                                    lineNumber: 282,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sre$2d$incident$2d$simulator$2d$platform$2f$orchids$2d$sre$2d$incident$2d$simulator$2d$platform$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -8549,83 +8558,83 @@ function Home() {
                                                         onClose: ()=>setSelectedIncidentId(null)
                                                     }, void 0, false, {
                                                         fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-                                                        lineNumber: 284,
+                                                        lineNumber: 286,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-                                                    lineNumber: 283,
+                                                    lineNumber: 285,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-                                            lineNumber: 279,
+                                            lineNumber: 281,
                                             columnNumber: 17
                                         }, this),
                                         activeTab === 'logs' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sre$2d$incident$2d$simulator$2d$platform$2f$orchids$2d$sre$2d$incident$2d$simulator$2d$platform$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "h-[calc(100vh-10rem)] md:h-[calc(100vh-12rem)]",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sre$2d$incident$2d$simulator$2d$platform$2f$orchids$2d$sre$2d$incident$2d$simulator$2d$platform$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$sre$2d$incident$2d$simulator$2d$platform$2f$orchids$2d$sre$2d$incident$2d$simulator$2d$platform$2d$main$2f$src$2f$components$2f$terminal$2f$log$2d$terminal$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["LogTerminal"], {}, void 0, false, {
                                                 fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-                                                lineNumber: 291,
+                                                lineNumber: 293,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-                                            lineNumber: 290,
+                                            lineNumber: 292,
                                             columnNumber: 17
                                         }, this),
                                         activeTab === 'training' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sre$2d$incident$2d$simulator$2d$platform$2f$orchids$2d$sre$2d$incident$2d$simulator$2d$platform$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "min-h-[600px]",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sre$2d$incident$2d$simulator$2d$platform$2f$orchids$2d$sre$2d$incident$2d$simulator$2d$platform$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$sre$2d$incident$2d$simulator$2d$platform$2f$orchids$2d$sre$2d$incident$2d$simulator$2d$platform$2d$main$2f$src$2f$components$2f$dashboard$2f$sre$2d$learning$2d$hub$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SRELearningHub"], {}, void 0, false, {
                                                 fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-                                                lineNumber: 297,
+                                                lineNumber: 299,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-                                            lineNumber: 296,
+                                            lineNumber: 298,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-                                    lineNumber: 259,
+                                    lineNumber: 261,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-                                lineNumber: 258,
+                                lineNumber: 260,
                                 columnNumber: 11
                             }, this),
                             teachingMode && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sre$2d$incident$2d$simulator$2d$platform$2f$orchids$2d$sre$2d$incident$2d$simulator$2d$platform$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("aside", {
                                 className: "w-80 border-l border-zinc-200 dark:border-zinc-800 p-6 bg-zinc-50 dark:bg-zinc-950/50 overflow-y-auto custom-scrollbar hidden xl:block shrink-0",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sre$2d$incident$2d$simulator$2d$platform$2f$orchids$2d$sre$2d$incident$2d$simulator$2d$platform$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$sre$2d$incident$2d$simulator$2d$platform$2f$orchids$2d$sre$2d$incident$2d$simulator$2d$platform$2d$main$2f$src$2f$components$2f$learning$2d$panel$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["LearningPanel"], {}, void 0, false, {
                                     fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-                                    lineNumber: 305,
+                                    lineNumber: 307,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-                                lineNumber: 304,
+                                lineNumber: 306,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-                        lineNumber: 257,
+                        lineNumber: 259,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-                lineNumber: 192,
+                lineNumber: 194,
                 columnNumber: 9
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-        lineNumber: 159,
+        lineNumber: 161,
         columnNumber: 5
     }, this);
 }
@@ -8643,7 +8652,7 @@ function NavItem({ icon, label, active = false, onClick, badge }) {
                         children: icon
                     }, void 0, false, {
                         fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-                        lineNumber: 331,
+                        lineNumber: 333,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sre$2d$incident$2d$simulator$2d$platform$2f$orchids$2d$sre$2d$incident$2d$simulator$2d$platform$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -8651,13 +8660,13 @@ function NavItem({ icon, label, active = false, onClick, badge }) {
                         children: label
                     }, void 0, false, {
                         fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-                        lineNumber: 337,
+                        lineNumber: 339,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-                lineNumber: 330,
+                lineNumber: 332,
                 columnNumber: 7
             }, this),
             badge !== undefined && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sre$2d$incident$2d$simulator$2d$platform$2f$orchids$2d$sre$2d$incident$2d$simulator$2d$platform$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$sre$2d$incident$2d$simulator$2d$platform$2f$orchids$2d$sre$2d$incident$2d$simulator$2d$platform$2d$main$2f$src$2f$components$2f$ui$2f$badge$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Badge"], {
@@ -8665,13 +8674,13 @@ function NavItem({ icon, label, active = false, onClick, badge }) {
                 children: badge
             }, void 0, false, {
                 fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-                lineNumber: 340,
+                lineNumber: 342,
                 columnNumber: 9
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/sre-incident-simulator-platform/orchids-sre-incident-simulator-platform-main/src/app/page.tsx",
-        lineNumber: 322,
+        lineNumber: 324,
         columnNumber: 5
     }, this);
 }
@@ -8679,4 +8688,4 @@ function NavItem({ icon, label, active = false, onClick, badge }) {
 
 };
 
-//# sourceMappingURL=%5Broot-of-the-server%5D__c2930077._.js.map
+//# sourceMappingURL=4a279_ent-simulator-platform_orchids-sre-incident-simulator-platform-main_src_b65e0eb5._.js.map

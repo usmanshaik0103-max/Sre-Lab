@@ -75,10 +75,8 @@ export default function Home() {
     <div className="flex flex-col h-full bg-zinc-50 dark:bg-zinc-950">
       <div className="p-6 border-b border-zinc-200 dark:border-zinc-800 flex items-center justify-between shrink-0">
         <div className="flex items-center gap-3">
-          <div className="bg-emerald-500 p-1.5 rounded-md">
-            <Cpu className="w-5 h-5 text-black" />
-          </div>
-          <span className="font-bold tracking-tighter text-lg">SRE Practice</span>
+          
+          <span className="font-bold tracking-tighter text-lg">SRE Incident Response Command Center</span>
         </div>
       </div>
 
@@ -171,7 +169,7 @@ export default function Home() {
         <SheetContent side="left" className="p-0 w-64 border-r border-zinc-800 bg-zinc-950">
           <SheetHeader className="sr-only">
             <SheetTitle>Navigation Menu</SheetTitle>
-            <SheetDescription>Main navigation for the SRE Practice platform</SheetDescription>
+            <SheetDescription>Main navigation for the SRE Incident Response Command Center platform</SheetDescription>
           </SheetHeader>
           <SidebarContent />
         </SheetContent>

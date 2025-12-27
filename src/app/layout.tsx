@@ -6,7 +6,7 @@ import Script from "next/script";
 import { ThemeProvider } from "@/components/theme-provider";
 
 export const metadata: Metadata = {
-  title: "SRE Practice",
+  title: "SRE Incident Response Command Center",
   description: "Master SRE concepts through interactive simulation",
 };
 
