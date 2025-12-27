@@ -447,10 +447,10 @@ export const useSREStore = create<SREState>((set) => ({
     )
   })),
 
-  toggleAutoSre: () => set((state) => ({ autoSreMode: !state.autoSreMode })),
-  setTeachingMode: (teachingMode) => set({ teachingMode }),
-  setLearningTopic: (learningTopic) => set({ learningTopic }),
-  addLog: (message, type = 'info') => set((state) => ({
-    logs: [{ timestamp: Date.now(), message, type }, ...state.logs].slice(0, 100)
-  })),
+toggleAutoSre: () => set((state) => ({ autoSreMode: !state.autoSreMode })),
+setTeachingMode: (teachingMode) => set({ teachingMode }),
+setLearningTopic: (learningTopic) => set({ learningTopic }),
+addLog: (message, type = 'info') => set((state) => ({
+  logs: [{ timestamp: Date.now(), message, type }, ...state.logs].slice(0, 100),
 })),
+}));
